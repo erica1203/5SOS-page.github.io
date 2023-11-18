@@ -1,0 +1,53 @@
+/*Comentarios*/
+/*Selector de tipo etiqueta HTML*/
+*{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;}
+body {
+    background-color: #bde0e9;
+    text-align: center;
+}
+h1{
+    background-color: antiquewhite;
+    width: 300px;
+    padding: 10px; /*Espacio interno*/
+    border: 1px solid black; /*Borde*/
+    margin: 10px; /*Espacio externo*/
+    /*text-align: center;*/
+}
+h3{
+    color: brown;
+}
+p{
+    font-weight: bold; /*Negritas*/
+    /*text-transform: uppercase; /*Mayúsculas*/
+}
+ul li{
+    text-decoration: none;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+}
+img{
+    width: 550px ; /*Unidades estáticas*/
+    height: 350px;
+}
+/*Selector de tipo CLASE, reutilizacion*/
+.tarjeta{
+    background-color: #f1dbe1;
+    border: 1px solid black; /*Bordes*/
+    margin: 30px;
+}
+/*Selector de tipo ID, identificador unico*/
+#titulo-ellos{
+    color: #034db0;
+}
+#ojito{
+    color: #034db0;
+}
+#imagen2{
+    width: 45%; /*Unidades relativas*/
+    border-radius: 10%; /*Borde redondeado*/
+}
+#historia{
+    border: 1px solid black;
+}
